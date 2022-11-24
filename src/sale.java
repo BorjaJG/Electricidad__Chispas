@@ -5,9 +5,8 @@ public class sale implements Interface__invoice {
     private Integer String_type__IVA;
     private Integer total__IVA;
 
-
-    private Integer getCode() {
-        return code;
+    public Integer getCode() {
+       return code;
     }
 
     public void setCode(Integer code) {

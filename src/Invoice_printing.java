@@ -35,4 +35,9 @@ public class Invoice_printing implements Interface__invoice{
     public void setProvince(String province) {
         Province = province;
     }
+
+    @Override
+    public Integer getCode() {
+        return null;
+    }
 }
