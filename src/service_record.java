@@ -1,0 +1,43 @@
+public class service_record implements Interface__services{
+    private  Integer  id;
+    private String Name;
+    private Integer price;
+    private Integer IVA_services;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
+
+    public Integer getIVA_services() {
+        return IVA_services;
+    }
+
+    public void setIVA_services(Integer IVA_services) {
+        this.IVA_services = IVA_services;
+    }
+
+
+
+
+
+}
