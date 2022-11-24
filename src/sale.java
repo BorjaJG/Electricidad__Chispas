@@ -1,40 +1,56 @@
 public class sale implements Interface__invoice {
-    private Integer Cif__Nif;
-    private String direction;
-    private String population;
-    private  String Province;
+    private Integer code;
+    private String name;
+    private Integer price;
+    private Integer String_type__IVA;
+    private Integer total__IVA;
 
-    public Integer getCif__Nif() {
-        return Cif__Nif;
+
+    private Integer getCode() {
+        return code;
     }
 
-    public void setCif__Nif(Integer cif__Nif) {
-        Cif__Nif = cif__Nif;
+    public void setCode(Integer code) {
+        this.code = code;
     }
 
-    public String getDirection() {
-        return direction;
+    public String getName() {
+        return name;
     }
 
-    public void setDirection(String direction) {
-        this.direction = direction;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getPopulation() {
-        return population;
+    public Integer getPrice() {
+        return price;
     }
 
-    public void setPopulation(String population) {
-        this.population = population;
+    public void setPrice(Integer price) {
+        this.price = price;
     }
 
-    public String getProvince() {
-        return Province;
+    public Integer getString_type__IVA() {
+        return String_type__IVA;
     }
 
-    public void setProvince(String province) {
-        Province = province;
+    public void setString_type__IVA(Integer string_type__IVA) {
+        String_type__IVA = string_type__IVA;
     }
+
+    public Integer getTotal__IVA() {
+        return total__IVA;
+    }
+
+    public void setTotal__IVA(Integer total__IVA) {
+        this.total__IVA = total__IVA;
+    }
+
+
+
+
+
+
 
 
 
