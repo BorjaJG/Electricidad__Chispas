@@ -8,12 +8,28 @@ public class autonomous implements Interface__Cliente {
     private String landline;
     private String town;
 
-
-
-
-
     public String getSurbname2() {
         return Surbname2;
+    }
+
+    @Override
+    public Integer getmobile() {
+        return null;
+    }
+
+    @Override
+    public String getlandline() {
+        return null;
+    }
+
+    @Override
+    public String gettown() {
+        return null;
+    }
+
+    @Override
+    public String CIF() {
+        return null;
     }
 
     public void setSurbname2(String surbname2) {
@@ -49,6 +65,16 @@ public class autonomous implements Interface__Cliente {
 
     public String getDNI() {
         return DNI;
+    }
+
+    @Override
+    public String getname() {
+        return null;
+    }
+
+    @Override
+    public String getsurbname1() {
+        return null;
     }
 
     public void setDNI(String DNI) {

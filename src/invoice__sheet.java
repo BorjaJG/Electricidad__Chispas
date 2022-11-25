@@ -13,8 +13,23 @@ public class invoice__sheet implements Interface__services{
         this.id = id;
     }
 
+    @Override
+    public String getid() {
+        return null;
+    }
+
     public String getName() {
         return Name;
+    }
+
+    @Override
+    public Integer getprice() {
+        return null;
+    }
+
+    @Override
+    public Integer getIVA_services() {
+        return null;
     }
 
     public void setName(String name) {

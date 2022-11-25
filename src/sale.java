@@ -5,6 +5,41 @@ public class sale implements Interface__invoice {
     private Integer String_type__IVA;
     private Integer total__IVA;
 
+    @Override
+    public Integer getCif__Nif() {
+        return null;
+    }
+
+    @Override
+    public String getDirection() {
+        return null;
+    }
+
+    @Override
+    public Integer getdate() {
+        return null;
+    }
+
+    @Override
+    public Integer getid_client() {
+        return null;
+    }
+
+    @Override
+    public Integer getid() {
+        return null;
+    }
+
+    @Override
+    public String getpopulation() {
+        return null;
+    }
+
+    @Override
+    public String getprovince() {
+        return null;
+    }
+
     public Integer getCode() {
        return code;
     }

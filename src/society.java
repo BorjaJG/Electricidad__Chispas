@@ -47,7 +47,43 @@ public class society implements Interface__Cliente{
     }
 
 
+    @Override
+    public String getDNI() {
+        return null;
+    }
 
+    @Override
+    public String getname() {
+        return null;
+    }
 
+    @Override
+    public String getsurbname1() {
+        return null;
+    }
 
+    @Override
+    public String getSurbname2() {
+        return null;
+    }
+
+    @Override
+    public Integer getmobile() {
+        return null;
+    }
+
+    @Override
+    public String getlandline() {
+        return null;
+    }
+
+    @Override
+    public String gettown() {
+        return null;
+    }
+
+    @Override
+    public String CIF() {
+        return null;
+    }
 }
