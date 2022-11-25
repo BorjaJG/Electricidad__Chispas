@@ -32,6 +32,26 @@ public class invoice__sheet implements Interface__services{
         return null;
     }
 
+    @Override
+    public String getCIF() {
+        return null;
+    }
+
+    @Override
+    public Integer getmobile() {
+        return null;
+    }
+
+    @Override
+    public String getlandline() {
+        return null;
+    }
+
+    @Override
+    public String gettown() {
+        return null;
+    }
+
     public void setName(String name) {
         Name = name;
     }

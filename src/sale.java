@@ -26,6 +26,26 @@ public class sale implements Interface__invoice {
     }
 
     @Override
+    public Integer gettax_base() {
+        return null;
+    }
+
+    @Override
+    public Integer gettotal() {
+        return null;
+    }
+
+    @Override
+    public Integer getid_product() {
+        return null;
+    }
+
+    @Override
+    public Integer getservice() {
+        return null;
+    }
+
+    @Override
     public Integer getid() {
         return null;
     }
