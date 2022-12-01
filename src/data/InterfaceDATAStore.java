@@ -1,4 +1,4 @@
-package domain;
+package data;
 
 public interface InterfaceDATAStore {
     void saveCustumer(Cliente cliente);

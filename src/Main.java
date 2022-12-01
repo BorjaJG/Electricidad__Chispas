@@ -40,8 +40,9 @@ public class Main {
                     System.out.println("|               - Jose                                  |   \n");
                     System.out.println("|               - Jiménez S.l                           |   \n");
                     String name = sc.next();
+                    if (name=="Jose");{
 
-                    if (name=Jose)
+                    }
                     }
                     case 2:
                     {

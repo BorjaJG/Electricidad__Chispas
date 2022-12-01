@@ -46,44 +46,32 @@ public class society implements Interface__Cliente{
         this.CIF = CIF;
     }
 
-
-    @Override
-    public String getDNI() {
-        return null;
-    }
-
     @Override
     public String getname() {
-        return null;
+        return name;
     }
-
     @Override
     public String getsurbname1() {
         return null;
     }
-
     @Override
     public String getSurbname2() {
         return null;
     }
-
     @Override
     public Integer getmobile() {
         return null;
     }
-
     @Override
     public String getlandline() {
-        return null;
+        return landline;
     }
-
     @Override
     public String gettown() {
-        return null;
+        return town;
     }
-
     @Override
-    public String CIF() {
-        return null;
+    public String getDNI_CIF() {
+        return CIF;
     }
 }

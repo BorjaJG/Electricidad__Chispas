@@ -1,6 +1,6 @@
 public interface Interface__Cliente {
 
-    public String  getDNI ();
+    public String  getDNI_CIF ();
     public String  getname ();
     public String  getsurbname1 ();
     public String  getSurbname2 ();
@@ -8,10 +8,6 @@ public interface Interface__Cliente {
     public String  getlandline ();
     public String  gettown ();
 
-
-
-
-    public String CIF();
 
 
 
