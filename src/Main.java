@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        private static Scanner sc;
+        Scanner sc;
 
 
         System.out.println(".........................................................  \n");
@@ -29,14 +29,25 @@ public class Main {
                 System.out.println("|           2.Modificar datos.                          | \n");
                 sc = new Scanner(System.in);
                 int num2 = sc.nextInt();
-                switch (num1){
+                switch (num2){
                     case 1:
                     {
+                    System.out.println("_________________________________________________________  \n");
+                    System.out.println("|               Ha selecionado en el menu:              |  \n");
+                    System.out.println("|               1.Ver datos.                            |   \n");
+                    System.out.println("|                                                       |   \n");
+                    System.out.println("|               ¿Que cliente desea ver los datos        |   \n");
+                    System.out.println("|               - Jose                                  |   \n");
+                    System.out.println("|               - Jiménez S.l                           |   \n");
+                    String name = sc.next();
 
+                    if (name=Jose)
                     }
                     case 2:
                     {
-
+                        System.out.println("_________________________________________________________  \n");
+                        System.out.println("|          Ha selecionado en el menu:                   |  \n");
+                        System.out.println("|           2.Modificar datos.                          | \n");
                     }
 
                 }
@@ -50,15 +61,18 @@ public class Main {
                 System.out.println("|           2.Modificar datos.                          | \n");
                 sc = new Scanner(System.in);
                 int num2 = sc.nextInt();
-                switch (num1){
-                    case 1:
-                    {
-
+                switch (num2) {
+                    case 1: {
+                        System.out.println("_________________________________________________________  \n");
+                        System.out.println("|               Ha selecionado en el menu:              |  \n");
+                        System.out.println("|               1.Ver datos.                            |   \n");
                     }
-                    case 2:
-                    {
-
+                    case 2: {
+                        System.out.println("_________________________________________________________  \n");
+                        System.out.println("|           Ha selecionado en el menu:                  |  \n");
+                        System.out.println("|           2.Modificar datos.                          | \n");
                     }
+                }
             }
             case 3:
             {
@@ -68,15 +82,18 @@ public class Main {
                 System.out.println("|           2.Modificar datos.                          | \n");
                 sc = new Scanner(System.in);
                 int num2 = sc.nextInt();
-                switch (num1){
-                    case 1:
-                    {
-
+                switch (num2) {
+                    case 1: {
+                        System.out.println("_________________________________________________________  \n");
+                        System.out.println("|               Ha selecionado en el menu:              |  \n");
+                        System.out.println("|               1.Ver datos.                            |   \n");
                     }
-                    case 2:
-                    {
-
+                    case 2: {
+                        System.out.println("_________________________________________________________  \n");
+                        System.out.println("|           Ha selecionado en el menu:                  |  \n");
+                        System.out.println("|           2.Modificar datos.                          | \n");
                     }
+                }
             }
             case 4:
             {
